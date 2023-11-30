@@ -11,6 +11,7 @@ DROP SEQUENCE IF EXISTS albums_id_seq;
 
 -- Then, we recreate them
 CREATE SEQUENCE IF NOT EXISTS artists_id_seq;
+
 CREATE TABLE artists (
     id SERIAL PRIMARY KEY,
     name VARCHAR(255),
